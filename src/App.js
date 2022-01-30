@@ -41,11 +41,7 @@ function App() {
     </div>
     <label for="pet-select">Choose Currency:</label>
 
-<select className="pet-select">
-    <option value="inr" className="inr" >inr</option>
-    <option value="usd" className="usd" >usd</option>
-    <option value="rub" className="rub">rub</option>
-</select>
+
     {filteredCoins.map(coin=>{
       return(
         <Coin
