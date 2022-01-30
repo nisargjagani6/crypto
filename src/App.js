@@ -39,7 +39,7 @@ function App() {
         <input type="text" placeholder="Search" className="coin-input" onChange={handlechange}/>
       </form>
     </div>
-    <label for="pet-select">Choose Currency:</label>
+   
 
 
     {filteredCoins.map(coin=>{
